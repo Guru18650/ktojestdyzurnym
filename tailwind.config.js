@@ -20,7 +20,7 @@ export default {
 				
 				preset: [
 					{
-						name: 'modern',
+						name: 'wintry',
 						enhancements: true,
 					},
 				],

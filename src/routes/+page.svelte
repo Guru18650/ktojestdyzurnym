@@ -18,11 +18,11 @@ var percent = (daysDiff/291*100).toFixed(2);
 const options = { year: 'numeric', month: 'long', day: 'numeric' }; 
 const options2 = { weekday: 'long'}; 
 </script>
-<title>Login</title>
-<div class="p-6 card !bg-transparent rounded-2xl shadow-4xl sm:max-w-md m-auto md:mt-32 mt-32">
+<title>Kto jest dziś dyżurnym?</title>
+<div class="p-6 card !bg-transparent rounded-2xl shadow-4xl sm:max-w-md m-auto md:mt-64 mt-32">
   <h1 class="text-xl leading-tight tracking-tight md:text-2xl">
   </h1>
-	<h1 class="text-xl leading-tight tracking-tight md:text-2xl">Kto jest dziś dyżurnym</h1>
+	<h1 class="text-xl leading-tight tracking-tight md:text-2xl">Kto jest dziś dyżurnym?</h1>
   <div class="pt-3 font-light text-small">
 	<p>W dniu <x class="font-medium">{currentDate.toLocaleDateString('pl-PL', options)}</x> ({currentDate.toLocaleDateString('pl-PL',options2)}) dyżurnymi są:</p>
 	<div class="text-2xl font-medium text-center mt-2">

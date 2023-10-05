@@ -19,7 +19,7 @@ const options = { year: 'numeric', month: 'long', day: 'numeric' };
 const options2 = { weekday: 'long'}; 
 </script>
 <title>Kto jest dziś dyżurnym?</title>
-<div class="p-6 card !bg-transparent rounded-2xl shadow-4xl sm:max-w-md m-auto md:mt-64 mt-32">
+<div class="p-6 card !bg-transparent rounded-2xl shadow-4xl sm:max-w-md m-auto md:mt-40 mt-32">
   <h1 class="text-xl leading-tight tracking-tight md:text-2xl">
   </h1>
 	<h1 class="text-xl leading-tight tracking-tight md:text-2xl">Kto jest dziś dyżurnym?</h1>

@@ -27,8 +27,8 @@ const options2 = { weekday: 'long'};
 	<p>W dniu <x class="font-medium">{currentDate.toLocaleDateString('pl-PL', options)}</x> ({currentDate.toLocaleDateString('pl-PL',options2)}) dyżurnymi są:</p>
 	<div class="text-2xl font-medium text-center mt-2">
 	<ul>
-		<li class="mb-2">{dyzurny+". "+osoby[dyzurny]}</li>
-		<li class="mb-4">{dyzurny+1+". "+osoby[dyzurny+1]}</li>
+		<li class="mb-2">{dyzurny+1+". "+osoby[dyzurny]}</li>
+		<li class="mb-4">{dyzurny+2+". "+osoby[dyzurny+1]}</li>
 	</ul>
 	</div>
 	<p>Jest to <x class="font-medium">{weekNumber}</x> tydzień i <x class="font-medium">{daysDiff}</x> dzień roku szkolnego. Do zakończenia roku pozostało <x class="font-medium">{291-daysDiff}</x> dni. Innymi słowy, mineło już <x class="font-medium">{percent}%</x> roku szkolnego.</p>
